@@ -26,7 +26,9 @@ class SurveyTableVCell: UITableViewCell {
     {
         let cellFrame = self.frame ;
         questionLab = UILabel(frame: CGRect(x: cellFrame.minX , y: cellFrame.minY + 2 , width: cellFrame.width , height: 30)) ;
-        questionLab.adjustsFontSizeToFitWidth = true ;
+        
+        
+        //questionLab.adjustsFontSizeToFitWidth = true ;
         //questionLab.text = "您认为产品的供应周期是否能满足您的预期要求？"
         
         options = UISegmentedControl(items: ["1分","2分","3分","4分","5分"]) ;

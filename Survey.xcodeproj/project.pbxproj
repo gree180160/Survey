@@ -13,6 +13,10 @@
 		AE7B714F1DC096D4003AD8ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE7B714E1DC096D4003AD8ED /* Assets.xcassets */; };
 		AE7B71521DC096D4003AD8ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE7B71501DC096D4003AD8ED /* LaunchScreen.storyboard */; };
 		AE7B715B1DC09E0F003AD8ED /* SurveyTableVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7B715A1DC09E0F003AD8ED /* SurveyTableVCell.swift */; };
+		AE8E5E891DC8AC0A00875FD7 /* SS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8E5E881DC8AC0A00875FD7 /* SS.swift */; };
+		AE8E5E8B1DC97E9B00875FD7 /* ExtensionStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8E5E8A1DC97E9B00875FD7 /* ExtensionStr.swift */; };
+		AE8E5E8D1DC991AF00875FD7 /* ExtensionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8E5E8C1DC991AF00875FD7 /* ExtensionTableViewCell.swift */; };
+		AE8E5E8F1DC9B93300875FD7 /* MyLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8E5E8E1DC9B93300875FD7 /* MyLabelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		AE7B71511DC096D4003AD8ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE7B71531DC096D4003AD8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE7B715A1DC09E0F003AD8ED /* SurveyTableVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTableVCell.swift; sourceTree = "<group>"; };
+		AE8E5E881DC8AC0A00875FD7 /* SS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SS.swift; sourceTree = "<group>"; };
+		AE8E5E8A1DC97E9B00875FD7 /* ExtensionStr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionStr.swift; sourceTree = "<group>"; };
+		AE8E5E8C1DC991AF00875FD7 /* ExtensionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionTableViewCell.swift; sourceTree = "<group>"; };
+		AE8E5E8E1DC9B93300875FD7 /* MyLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLabelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				AE7B71501DC096D4003AD8ED /* LaunchScreen.storyboard */,
 				AE7B71531DC096D4003AD8ED /* Info.plist */,
 				AE7B715A1DC09E0F003AD8ED /* SurveyTableVCell.swift */,
+				AE8E5E881DC8AC0A00875FD7 /* SS.swift */,
+				AE8E5E8A1DC97E9B00875FD7 /* ExtensionStr.swift */,
+				AE8E5E8C1DC991AF00875FD7 /* ExtensionTableViewCell.swift */,
+				AE8E5E8E1DC9B93300875FD7 /* MyLabelViewController.swift */,
 			);
 			path = Survey;
 			sourceTree = "<group>";
@@ -141,6 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE7B715B1DC09E0F003AD8ED /* SurveyTableVCell.swift in Sources */,
+				AE8E5E8F1DC9B93300875FD7 /* MyLabelViewController.swift in Sources */,
+				AE8E5E891DC8AC0A00875FD7 /* SS.swift in Sources */,
+				AE8E5E8B1DC97E9B00875FD7 /* ExtensionStr.swift in Sources */,
+				AE8E5E8D1DC991AF00875FD7 /* ExtensionTableViewCell.swift in Sources */,
 				AE7B714A1DC096D4003AD8ED /* ViewController.swift in Sources */,
 				AE7B71481DC096D4003AD8ED /* AppDelegate.swift in Sources */,
 			);

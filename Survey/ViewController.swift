@@ -75,11 +75,12 @@ class ViewController: UIViewController , UITableViewDataSource , UITableViewDele
     {
          self.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.width , height: self.view.frame.height) ;
     }
-    
-    
+
     override var prefersStatusBarHidden: Bool{ return true} //隐藏状态栏
-    func submitF() -> Void {
-        print("the result is :") ;
+    func submitF() -> Void
+    {
+    self.present(SS(), animated: true , completion: nil ) ;
+     //self.present(MyLabelViewController(), animated: true , completion: nil ) ;
     }
     
     override func didReceiveMemoryWarning()
@@ -94,7 +95,7 @@ class ViewController: UIViewController , UITableViewDataSource , UITableViewDele
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CellID", for: indexPath) as! SurveyTableVCell ;
-        cell.questionLab.text = String(indexPath.row) + ". " + "您认为产品的供应周期是否能满足您的预期要求？" ;
+        cell.questionLab.text = String(indexPath.row) + ". " + "您认为产品的供应周79878978978978978979878978978973431321期是否能满足您的预期要求？" ;
         return cell ;
     }
     func numberOfSections(in tableView: UITableView) -> Int
@@ -103,40 +104,11 @@ class ViewController: UIViewController , UITableViewDataSource , UITableViewDele
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
-        print("outside result is :\((tableView.cellForRow(at: indexPath) as! SurveyTableVCell).result)") ;
+       // print("outside result is :\((tableView.cellForRow(at: indexPath) as! SurveyTableVCell).result)") ;
+        //self.navigationController?.pushViewController(SS(), animated: true) ;
+        self.present(SS(), animated: true , completion: nil ) ;
+        
     }
-
-    /*
-     func textViewDidBeginEditing(_ textView: UITextView) -> Void {
-     let frame = textView.frame ;
-     let offset = frame.origin.y + 100 - (self.view.frame.height - 330) ;
-     if offset > 0
-     {
-     self.view.frame = CGRect(x: 0 , y: -offset , width: self.view.frame.width , height: self.view.frame.height) ;
-     }
-     print("mover keyboard") ;
-     }
-     func textViewDidEndEditing(_ textView: UITextView) {
-     self.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.width , height: self.view.frame.height) ;
-     }
-     */
-    //click space keyboard will disappear
-    
-    /*  // click return keyboard will disappear
-     func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool
-     {
-     if text == "\n"
-     {
-     textView.resignFirstResponder() ;
-     return true
-     }
-     else
-     {
-     return false ;
-     }
-     
-     }
-     */
 
 }
 
